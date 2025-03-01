@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8 text-center">
+        <h1 class="display-4 mb-4">Welcome to Steganography</h1>
+        <p class="lead mb-5">Hide your secret messages securely within images</p>
+        
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Encrypt Message</h5>
+                        <p class="card-text">Hide your secret message within an image.</p>
+                        <a href="{{ url_for('encrypt') }}" class="btn btn-primary">Encrypt</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Decrypt Message</h5>
+                        <p class="card-text">Extract hidden messages from encrypted images.</p>
+                        <a href="{{ url_for('decrypt') }}" class="btn btn-primary">Decrypt</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

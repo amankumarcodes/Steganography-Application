@@ -3,9 +3,9 @@
 
 A secure web application for hiding secret messages in images using XOR encryption and LSB steganography.
 
-![Preview](preview.png)
-![](encryption.png)
-![](decryption.png)
+![](Preview/preview.png)
+![](Preview/encryption.png)
+![](Preview/decryption.png)
 
 ## Features ✨
 

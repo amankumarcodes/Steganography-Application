@@ -84,5 +84,4 @@ python app.py
 - Keep encrypted images secure
 - Maximum message capacity: `(width × height × 3) - 4` bytes
 
-```
 ## Made with ❤️ by Aman

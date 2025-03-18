@@ -84,17 +84,5 @@ python app.py
 - Keep encrypted images secure
 - Maximum message capacity: `(width × height × 3) - 4` bytes
 
-## Contributing 🤝
-
-1. Fork the repository
-2. Create feature branch:
-```bash
-git checkout -b feature/amazing-feature
 ```
-3. Commit changes
-4. Push to branch
-5. Open pull request
-
-
-
 ## Made with ❤️ by Aman
